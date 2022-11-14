@@ -10,6 +10,8 @@ import { Hello } from './pages/hello/hello';
 import { Settings } from './pages/settiings/settings';
 import { Upload } from './pages/upload/upload';
 import { Recognize } from './pages/recognize/recognize';
+import 'antd/dist/antd.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
