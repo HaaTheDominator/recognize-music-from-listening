@@ -1,4 +1,4 @@
-.setting-wrapper {
+.recognize-wrapper {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -6,10 +6,7 @@
     align-items: center;
 }
 
-.setting-text {
+.recognize-text {
     font-size: 5rem;
     color: rgba(0, 0, 0, 0.88);
-    position: relative;
-    left: -20vw;
-    top: -30vh;
 }

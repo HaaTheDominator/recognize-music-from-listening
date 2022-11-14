@@ -1,0 +1,13 @@
+.description-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.song-name {
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.artist-name {
+    margin-right: 50px;
+}

@@ -4,7 +4,7 @@ export default function Root() {
     return (
       <>
         <div id="sidebar">
-          <h1>React Router Contacts</h1>
+          <h1>简易听歌识曲</h1>
           <div>
             <form id="search-form" role="search">
               <input
@@ -24,8 +24,8 @@ export default function Root() {
                 aria-live="polite"
               ></div>
             </form>
-            <form method="post">
-              <button type="submit">New</button>
+            <form method="get">
+              <button type="submit">搜索</button>
             </form>
           </div>
           <nav>
@@ -38,6 +38,9 @@ export default function Root() {
               </li>
               <li>
                 <Link to={`settings`}>设置</Link>
+              </li>
+              <li>
+                <Link to={`/`}>返回首页</Link>
               </li>
             </ul>
           </nav>
