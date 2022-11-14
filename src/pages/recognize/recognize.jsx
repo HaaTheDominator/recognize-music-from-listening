@@ -72,12 +72,18 @@ export const Recognize = () => {
         <div className="recognize-text">
             识别
         </div>
+        <div className="recognize-buttons">
+        <div className="upload-button">
         <Upload
         onChange={onChangeUploadStatus}
         >
             <Button disabled={recording} icon={<UploadOutlined />}>点击上传音乐</Button>
         </Upload>
+        </div>
+        <div>
         <Record />
+        </div>
+        </div>
     </div>
     </Spin> )
 }
