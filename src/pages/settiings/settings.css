@@ -10,6 +10,9 @@
     font-size: 5rem;
     color: rgba(0, 0, 0, 0.88);
     position: relative;
-    left: -20vw;
     top: -30vh;
+}
+
+.renew-button {
+    margin-left: 10px;
 }

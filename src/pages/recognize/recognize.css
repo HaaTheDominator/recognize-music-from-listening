@@ -10,3 +10,15 @@
     font-size: 5rem;
     color: rgba(0, 0, 0, 0.88);
 }
+
+.recognize-result {
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.recognize-result-row {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
